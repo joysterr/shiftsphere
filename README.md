@@ -2,4 +2,6 @@
 > Keeping track of your schedule and pay
 
 ## Technologies
-Leveraging the one and only MERN stack
+- Vite
+- MERN stack
+- RESTful APIs
