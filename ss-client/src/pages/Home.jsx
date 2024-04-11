@@ -1,4 +1,4 @@
-function Home() {
+export default function Home() {
     return (
         <h1 className="text-8xl font-bold text-white">
             Hello World! We&apos;re{" "}
@@ -8,5 +8,3 @@ function Home() {
         </h1>
     );
 }
-
-export default Home

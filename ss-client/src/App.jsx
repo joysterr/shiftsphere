@@ -1,13 +1,11 @@
-import Home from "./pages/Home";
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
     return (
         <>
             <Navbar />
-            <Home />
+            <Outlet />
         </>
     );
 }
-
-export default App;

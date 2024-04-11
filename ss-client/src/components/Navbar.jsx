@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 import navItems from "../utils/navItems";
 
 function Navbar() {
@@ -29,12 +30,12 @@ function Navbar() {
                     {navItems.map((item) => {
                         return (
                             <li key={item.key}>
-                                <a
-                                    href={item.navLink}
+                                <Link
+                                    to={item.navLink}
                                     className="transition hover:text-purple-700"
                                 >
                                     {item.navName}
-                                </a>
+                                </Link>
                             </li>
                         );
                     })}
